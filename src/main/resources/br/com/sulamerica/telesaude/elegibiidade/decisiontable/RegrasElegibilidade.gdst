@@ -159,7 +159,7 @@
           <constraintValueType>3</constraintValueType>
           <factField>idade</factField>
           <fieldType>Integer</fieldType>
-          <operator>&lt;=</operator>
+          <operator>&gt;=</operator>
           <parameters/>
           <binding></binding>
         </condition-column52>
