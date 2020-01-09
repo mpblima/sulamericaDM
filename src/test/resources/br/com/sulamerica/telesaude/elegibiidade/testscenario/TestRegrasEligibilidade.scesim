@@ -29,7 +29,14 @@
           <factAlias>Scenario description</factAlias>
         </FactMapping>
         <FactMapping>
-          <expressionElements/>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Request</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>servico</step>
+            </ExpressionElement>
+          </expressionElements>
           <expressionIdentifier>
             <name>1|1</name>
             <type>GIVEN</type>
@@ -38,9 +45,9 @@
             <name>1|1</name>
             <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
           </factIdentifier>
-          <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
+          <className>java.lang.String</className>
           <factAlias>Request</factAlias>
-          <expressionAlias>PROPERTY 2</expressionAlias>
+          <expressionAlias>servico</expressionAlias>
         </FactMapping>
         <FactMapping>
           <expressionElements/>
@@ -59,7 +66,7 @@
       </factMappings>
       <type>RULE</type>
       <skipFromBuild>false</skipFromBuild>
-      <stateless>false</stateless>
+      <stateless>true</stateless>
     </simulationDescriptor>
     <scenarios>
       <Scenario>
@@ -91,8 +98,8 @@
               <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
+              <name>1|2</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
           <FactMappingValue>
@@ -101,8 +108,8 @@
               <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|2</name>
-              <type>EXPECT</type>
+              <name>1|1</name>
+              <type>GIVEN</type>
             </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
