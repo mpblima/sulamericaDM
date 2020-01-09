@@ -6,7 +6,7 @@
   </rowNumberCol>
   <descriptionCol>
     <hideColumn>false</hideColumn>
-    <width>150</width>
+    <width>263</width>
   </descriptionCol>
   <metadataCols/>
   <attributeCols/>
@@ -78,7 +78,7 @@
           <factField>plano</factField>
           <fieldType>String</fieldType>
           <operator>in</operator>
-          <valueList>Plano</valueList>
+          <valueList></valueList>
           <parameters/>
           <binding></binding>
         </condition-column52>
@@ -203,7 +203,36 @@
       <entryPointName></entryPointName>
     </Pattern52>
   </conditionPatterns>
-  <actionCols/>
+  <actionCols>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>Elegível?</header>
+      <boundName>req</boundName>
+      <factField>elegivel</factField>
+      <type>Boolean</type>
+      <update>false</update>
+    </set-field-col52>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>Atendimentos por ano</header>
+      <boundName>req</boundName>
+      <factField>atendimentosAno</factField>
+      <type>Integer</type>
+      <update>false</update>
+    </set-field-col52>
+  </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>
@@ -250,7 +279,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Regra médico em casa pediatria</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>MEC</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -265,7 +299,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>EXECUTIVO,BÁSICO,ESPECIAL,ADESÃO</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -275,23 +309,18 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Americana,Araraquara,Arujá,Barueri,Bauru,Caçapava,Campinas,Cotia,Cubatão,Diadema,Embu das Artes,Guaratinguetá,Guarujá,Guarulhos,Indaiatuba,Itapecerica da Serra,Itaquaquecetuba,Jacareí,Jundiaí,Mauá,Mogi Guaçu,Osasco,Pindamonhangaba,Piracicaba,Praia Grande,Ribeirão Preto,Ribeirão Pires,Santana de Parnaíba,Santo André,Santos,São Bernardo do Campo,São Caetano do Sul,São José dos Campos,São José do Rio Preto,São Paulo,São Vicente,Sorocaba,Suzano,Taubaté</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -302,14 +331,26 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>12</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
