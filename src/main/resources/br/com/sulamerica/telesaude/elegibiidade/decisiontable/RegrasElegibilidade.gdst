@@ -40,7 +40,11 @@
     <entries/>
   </auditLog>
   <imports>
-    <imports/>
+    <imports>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>br.com.sulamerica.telesaude.elegibiidade.model.Request</type>
+      </org.kie.soup.project.datamodel.imports.Import>
+    </imports>
   </imports>
   <packageName>br.com.sulamerica.telesaude.elegibiidade.decisiontable</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
