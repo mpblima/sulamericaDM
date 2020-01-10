@@ -56,7 +56,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>199</width>
+          <width>388</width>
           <header>Carteira</header>
           <constraintValueType>1</constraintValueType>
           <factField>carteira</factField>
@@ -331,7 +331,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>12</valueString>
+        <valueString>8</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
