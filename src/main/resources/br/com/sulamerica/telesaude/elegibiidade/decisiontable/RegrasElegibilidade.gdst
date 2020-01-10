@@ -72,7 +72,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>192</width>
+          <width>361</width>
           <header>Plano</header>
           <constraintValueType>1</constraintValueType>
           <factField>plano</factField>
@@ -105,7 +105,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>151</width>
+          <width>367</width>
           <header>Cidade</header>
           <constraintValueType>1</constraintValueType>
           <factField>cidade</factField>
@@ -331,7 +331,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>12</valueString>
+        <valueString>5</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
