@@ -6,12 +6,24 @@ package br.com.sulamerica.telesaude.elegibiidade.model;
 
 public class Teste implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Teste() {
-    }
+	@org.kie.api.definition.type.Label(value = "Nome")
+	private java.lang.String nome;
 
+	public Teste() {
+	}
 
+	public java.lang.String getNome() {
+		return this.nome;
+	}
 
+	public void setNome(java.lang.String nome) {
+		this.nome = nome;
+	}
+
+	public Teste(java.lang.String nome) {
+		this.nome = nome;
+	}
 
 }
