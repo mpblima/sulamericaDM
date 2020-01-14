@@ -6,12 +6,47 @@ package br.com.sulamerica.telesaude.elegibiidade.model;
 
 public class Response implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Response() {
-    }
+	@org.kie.api.definition.type.Label(value = "Elegivel")
+	private boolean elegivel;
+	@org.kie.api.definition.type.Label(value = "Atendimentos por ano")
+	private int atendimentosPorAno;
+	@org.kie.api.definition.type.Label(value = "Mensagem")
+	private java.util.List<java.lang.String> mensagem;
 
+	public Response() {
+	}
 
+	public boolean isElegivel() {
+		return this.elegivel;
+	}
 
+	public void setElegivel(boolean elegivel) {
+		this.elegivel = elegivel;
+	}
+
+	public int getAtendimentosPorAno() {
+		return this.atendimentosPorAno;
+	}
+
+	public void setAtendimentosPorAno(int atendimentosPorAno) {
+		this.atendimentosPorAno = atendimentosPorAno;
+	}
+
+	public java.util.List<java.lang.String> getMensagem() {
+		return this.mensagem;
+	}
+
+	public void setMensagem(java.util.List<java.lang.String> mensagem) {
+		this.mensagem = mensagem;
+	}
+
+	public Response(boolean elegivel, int atendimentosPorAno,
+			java.util.List<java.lang.String> mensagem) {
+		this.elegivel = elegivel;
+		this.atendimentosPorAno = atendimentosPorAno;
+		this.mensagem = mensagem;
+	}
 
 }
