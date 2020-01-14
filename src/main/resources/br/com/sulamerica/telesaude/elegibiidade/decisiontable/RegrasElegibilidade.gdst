@@ -374,7 +374,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Regra 1</valueString>
+        <valueString>&quot;Regra 1&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -462,7 +462,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Regra 2</valueString>
+        <valueString>&quot;Regra 2&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -550,7 +550,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Regra 3</valueString>
+        <valueString>&quot;Regra 3&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -638,7 +638,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Regra 4</valueString>
+        <valueString>&quot;Regra 4&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -726,7 +726,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Regra 5</valueString>
+        <valueString>&quot;Regra 5&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
