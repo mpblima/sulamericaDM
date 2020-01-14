@@ -8,12 +8,12 @@ public class Response implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Elegivel")
+	@org.kie.api.definition.type.Label("Elegivel")
 	private boolean elegivel;
-	@org.kie.api.definition.type.Label(value = "Atendimentos por ano")
+	@org.kie.api.definition.type.Label("Atendimentos por ano")
 	private int atendimentosPorAno;
-	@org.kie.api.definition.type.Label(value = "Mensagem")
-	private java.util.List<java.lang.String> mensagem;
+	@org.kie.api.definition.type.Label("Mensagem")
+	private String mensagem;
 
 	public Response() {
 	}
@@ -34,16 +34,16 @@ public class Response implements java.io.Serializable {
 		this.atendimentosPorAno = atendimentosPorAno;
 	}
 
-	public java.util.List<java.lang.String> getMensagem() {
+	public java.lang.String getMensagem() {
 		return this.mensagem;
 	}
 
-	public void setMensagem(java.util.List<java.lang.String> mensagem) {
+	public void setMensagem(java.lang.String mensagem) {
 		this.mensagem = mensagem;
 	}
 
 	public Response(boolean elegivel, int atendimentosPorAno,
-			java.util.List<java.lang.String> mensagem) {
+			java.lang.String mensagem) {
 		this.elegivel = elegivel;
 		this.atendimentosPorAno = atendimentosPorAno;
 		this.mensagem = mensagem;
