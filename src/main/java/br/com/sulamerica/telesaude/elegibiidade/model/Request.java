@@ -10,31 +10,26 @@ public class Request implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Serviço")
+	@org.kie.api.definition.type.Label("Serviço")
 	private java.lang.String servico;
-	@org.kie.api.definition.type.Label(value = "Produto")
+	@org.kie.api.definition.type.Label("Produto")
 	private int produto;
-	@org.kie.api.definition.type.Label(value = "Carteira")
+	@org.kie.api.definition.type.Label("Carteira")
 	private java.lang.String carteira;
-	@org.kie.api.definition.type.Label(value = "Plano")
+	@org.kie.api.definition.type.Label("Plano")
 	private java.lang.String plano;
-	@org.kie.api.definition.type.Label(value = "Empresa")
+	@org.kie.api.definition.type.Label("Empresa")
 	private java.lang.String empresa;
-	@org.kie.api.definition.type.Label(value = "Cidade")
+	@org.kie.api.definition.type.Label("Cidade")
 	private java.lang.String cidade;
-	@org.kie.api.definition.type.Label(value = "Cobertura hospitalar")
+	@org.kie.api.definition.type.Label("Cobertura hospitalar")
 	private boolean hospitalar;
-	@org.kie.api.definition.type.Label(value = "Cobertura ambulatorial")
+	@org.kie.api.definition.type.Label("Cobertura ambulatorial")
 	private boolean ambulatorial;
-	@org.kie.api.definition.type.Label(value = "Adimplente")
+	@org.kie.api.definition.type.Label("Adimplente")
 	private boolean adimplente;
-	@org.kie.api.definition.type.Label(value = "Elegivel")
-	private boolean elegivel;
-	@org.kie.api.definition.type.Label(value = "Idade")
+	@org.kie.api.definition.type.Label("Idade")
 	private int idade;
-	@org.kie.api.definition.type.Label(value = "Atendimentos por ano")
-	private int atendimentosAno;
-
 	public Request() {
 	}
 
@@ -110,14 +105,6 @@ public class Request implements java.io.Serializable {
 		this.adimplente = adimplente;
 	}
 
-	public boolean isElegivel() {
-		return this.elegivel;
-	}
-
-	public void setElegivel(boolean elegivel) {
-		this.elegivel = elegivel;
-	}
-
 	public int getIdade() {
 		return this.idade;
 	}
@@ -126,19 +113,11 @@ public class Request implements java.io.Serializable {
 		this.idade = idade;
 	}
 
-	public int getAtendimentosAno() {
-		return this.atendimentosAno;
-	}
-
-	public void setAtendimentosAno(int atendimentosAno) {
-		this.atendimentosAno = atendimentosAno;
-	}
-
 	public Request(java.lang.String servico, int produto,
 			java.lang.String carteira, java.lang.String plano,
 			java.lang.String empresa, java.lang.String cidade,
 			boolean hospitalar, boolean ambulatorial, boolean adimplente,
-			boolean elegivel, int idade, int atendimentosAno) {
+			int idade) {
 		this.servico = servico;
 		this.produto = produto;
 		this.carteira = carteira;
@@ -148,9 +127,7 @@ public class Request implements java.io.Serializable {
 		this.hospitalar = hospitalar;
 		this.ambulatorial = ambulatorial;
 		this.adimplente = adimplente;
-		this.elegivel = elegivel;
 		this.idade = idade;
-		this.atendimentosAno = atendimentosAno;
 	}
 
 }
