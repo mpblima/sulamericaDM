@@ -1,7 +1,0 @@
-package br.com.sulamerica.telesaude.elegibiidade.rules;
-
-rule "Teste"
-    when 
-        true
-    then
-        System.out.println("Teste de regra")
