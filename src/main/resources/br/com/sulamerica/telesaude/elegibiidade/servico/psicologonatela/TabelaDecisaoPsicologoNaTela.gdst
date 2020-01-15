@@ -1,5 +1,6 @@
 <decision-table52>
   <tableName>TabelaDecisaoPsicologoNaTela</tableName>
+  <parentName></parentName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>50</width>
