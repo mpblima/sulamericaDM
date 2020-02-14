@@ -1,6 +1,6 @@
-<ScenarioSimulationModel version="1.6">
+<ScenarioSimulationModel version="1.8">
   <simulation>
-    <simulationDescriptor>
+    <scesimModelDescriptor>
       <factMappings>
         <FactMapping>
           <expressionElements/>
@@ -14,6 +14,8 @@
           </factIdentifier>
           <className>java.lang.Integer</className>
           <factAlias>#</factAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>70.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements/>
@@ -27,6 +29,8 @@
           </factIdentifier>
           <className>java.lang.String</className>
           <factAlias>Scenario description</factAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>300.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -48,6 +52,8 @@
           <className>java.lang.String</className>
           <factAlias>Request</factAlias>
           <expressionAlias>servicoOrigem</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -69,6 +75,8 @@
           <className>boolean</className>
           <factAlias>Request</factAlias>
           <expressionAlias>encaminhamento</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -90,6 +98,8 @@
           <className>java.lang.String</className>
           <factAlias>Request</factAlias>
           <expressionAlias>servico</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -111,6 +121,8 @@
           <className>boolean</className>
           <factAlias>Request</factAlias>
           <expressionAlias>liminar</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -132,6 +144,8 @@
           <className>int</className>
           <factAlias>Request</factAlias>
           <expressionAlias>produto</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -153,6 +167,8 @@
           <className>java.lang.String</className>
           <factAlias>Request</factAlias>
           <expressionAlias>carteira</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -174,6 +190,8 @@
           <className>java.lang.String</className>
           <factAlias>Request</factAlias>
           <expressionAlias>plano</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -195,6 +213,8 @@
           <className>java.lang.String</className>
           <factAlias>Request</factAlias>
           <expressionAlias>empresa</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -216,6 +236,8 @@
           <className>java.lang.String</className>
           <factAlias>Request</factAlias>
           <expressionAlias>cidade</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -237,6 +259,8 @@
           <className>boolean</className>
           <factAlias>Request</factAlias>
           <expressionAlias>hospitalar</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -258,6 +282,8 @@
           <className>boolean</className>
           <factAlias>Request</factAlias>
           <expressionAlias>ambulatorial</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -279,6 +305,8 @@
           <className>java.util.Date</className>
           <factAlias>Request</factAlias>
           <expressionAlias>dataInicio</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -300,6 +328,8 @@
           <className>java.util.Date</className>
           <factAlias>Request</factAlias>
           <expressionAlias>dataFim</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -321,6 +351,8 @@
           <className>int</className>
           <factAlias>Request</factAlias>
           <expressionAlias>idade</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -342,6 +374,8 @@
           <className>boolean</className>
           <factAlias>Request</factAlias>
           <expressionAlias>adimplente</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -363,6 +397,8 @@
           <className>boolean</className>
           <factAlias>Response</factAlias>
           <expressionAlias>elegivel</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -384,6 +420,8 @@
           <className>int</className>
           <factAlias>Response</factAlias>
           <expressionAlias>atendimentosPorAno</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -405,14 +443,12 @@
           <className>int</className>
           <factAlias>Response</factAlias>
           <expressionAlias>atendimentosAdicionais</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
       </factMappings>
-      <dmoSession>app</dmoSession>
-      <type>RULE</type>
-      <skipFromBuild>false</skipFromBuild>
-      <stateless>true</stateless>
-    </simulationDescriptor>
-    <scenarios>
+    </scesimModelDescriptor>
+    <scesimData>
       <Scenario>
         <factMappingValues>
           <FactMappingValue>
@@ -2151,438 +2187,6 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Regra médico na tela pediatria (campanha Inverno 2020)</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269096616</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269952850</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">OMV</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269933899</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599486439</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599489308</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">ADMINISTRADOS</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599524626</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">DIRETO</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599532401</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599537159</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599541838</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599546484</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269981876</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269992681</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599552226</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">5</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599561936</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1579098245567</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Response</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579098245567</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1579098245567</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Response</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579098548078</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1579098245567</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Response</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579270027991</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>#</name>
-              <className>java.lang.Integer</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>Index</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">9</rawValue>
-          </FactMappingValue>
-        </factMappingValues>
-      </Scenario>
-      <Scenario>
-        <factMappingValues>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Scenario description</name>
-              <className>java.lang.String</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>Description</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">Regra médico na tela clínico geral (campanha Inverno 2020)</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269096616</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269952850</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">OMV</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269933899</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599486439</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599489308</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">EMPRESARIAL</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599524626</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">HOSPITALAR</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599532401</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599537159</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599541838</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599546484</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269981876</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269992681</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599552226</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">12</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599561936</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1579098245567</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Response</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579098245567</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1579098245567</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Response</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579098548078</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1579098245567</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Response</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579270027991</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>#</name>
-              <className>java.lang.Integer</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>Index</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">10</rawValue>
-          </FactMappingValue>
-        </factMappingValues>
-      </Scenario>
-      <Scenario>
-        <factMappingValues>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Scenario description</name>
-              <className>java.lang.String</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>Description</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
             <rawValue class="string">Regra de psicólogo na tela</rawValue>
           </FactMappingValue>
           <FactMappingValue>
@@ -2784,220 +2388,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">11</rawValue>
-          </FactMappingValue>
-        </factMappingValues>
-      </Scenario>
-      <Scenario>
-        <factMappingValues>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Scenario description</name>
-              <className>java.lang.String</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>Description</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">Regra de psicólogo na tela (Elegível Programa Saúde)</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269096616</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269952850</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">PSICOLOGO</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269933899</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599486439</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599489308</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599524626</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599532401</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599537159</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599541838</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599546484</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269981876</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">05-jan-2020</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579269992681</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">03-fev-2020</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599552226</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Request</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1578599561936</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1579098245567</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Response</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579098245567</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1579098245567</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Response</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579098548078</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">-1</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1579098245567</name>
-              <className>br.com.sulamerica.telesaude.elegibiidade.model.Response</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1579270027991</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>#</name>
-              <className>java.lang.Integer</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>Index</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">12</rawValue>
+            <rawValue class="string">9</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -3208,7 +2599,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">13</rawValue>
+            <rawValue class="string">10</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -3419,12 +2810,56 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">14</rawValue>
+            <rawValue class="string">11</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
-    </scenarios>
+    </scesimData>
   </simulation>
+  <background>
+    <scesimModelDescriptor>
+      <factMappings>
+        <FactMapping>
+          <expressionElements/>
+          <expressionIdentifier>
+            <name>1|1</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Empty</name>
+            <className>java.lang.Void</className>
+          </factIdentifier>
+          <className>java.lang.Void</className>
+          <factAlias>Instance 1</factAlias>
+          <expressionAlias>PROPERTY 1</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+      </factMappings>
+    </scesimModelDescriptor>
+    <scesimData>
+      <BackgroundData>
+        <factMappingValues>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Empty</name>
+              <className>java.lang.Void</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+        </factMappingValues>
+      </BackgroundData>
+    </scesimData>
+  </background>
+  <settings>
+    <dmoSession>app</dmoSession>
+    <type>RULE</type>
+    <skipFromBuild>false</skipFromBuild>
+    <stateless>true</stateless>
+  </settings>
   <imports>
     <imports>
       <Import>
